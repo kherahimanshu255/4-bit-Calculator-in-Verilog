@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_calculator_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_calculator" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="7.075 ns"></ZoomEndTime>
+      <Cursor1Time time="8.479 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="142"></NameColumnWidth>
+      <ValueColumnWidth column_width="212"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="/tb_calculator/tb_A" type="array">
+      <obj_property name="ElementShortName">tb_A[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_A[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator/tb_B" type="array">
+      <obj_property name="ElementShortName">tb_B[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_B[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator/tb_Op" type="array">
+      <obj_property name="ElementShortName">tb_Op[1:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_Op[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_calculator/tb_Result" type="array">
+      <obj_property name="ElementShortName">tb_Result[4:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_Result[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
